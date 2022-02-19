@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .icon_btn {
+    @apply uppercase bg-blue-500 py-1.5 px-1 -tracking-widest block text-sm border-2 border-cyan-200 cursor-pointer shadow rounded m-5 mt-6 hover:border-cyan-700 hover:bg-blue-700;
+  }
+  .react_icon {
+    @apply bg-transparent border-transparent text-2xl cursor-pointer;
+  }
+}
